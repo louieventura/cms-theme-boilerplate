@@ -1,0 +1,29 @@
+@import 'variables.css';
+
+/* Marketing Gradients */
+.gradient-shader {
+  background: linear-gradient(125deg, var(--navy), var(--teal));
+  animation: shaderGradient 8s infinite alternate;
+}
+
+.gradient-mesh {
+  background-color: white;
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(32, 201, 151, 0.2) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(250, 169, 22, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(0, 31, 63, 0.1) 0px, transparent 50%);
+}
+
+/* Marketing Components */
+.banner {
+  padding: var(--spacing-xxl) var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  color: white;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+}
