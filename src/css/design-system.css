@@ -1,0 +1,43 @@
+:root {
+  /* Colors */
+  --color-primary: #FF7A59;
+  --color-secondary: #00BDA5;
+  --color-text-primary: #33475B;
+  --color-text-secondary: #516F90;
+
+  /* Typography */
+  --font-family-primary: 'Lexend', sans-serif;
+  --font-family-secondary: 'Inter', sans-serif;
+  --font-size-base: 16px;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+}
+
+/* Utility Classes */
+.text-primary { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+.bg-primary { background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+
+.font-primary { font-family: var(--font-family-primary); }
+.font-secondary { font-family: var(--font-family-secondary); }
+
+.text-sm { font-size: var(--font-size-sm); }
+.text-md { font-size: var(--font-size-md); }
+.text-lg { font-size: var(--font-size-lg); }
+.text-xl { font-size: var(--font-size-xl); }
+
+.space-xs { margin: var(--spacing-xs); }
+.space-sm { margin: var(--spacing-sm); }
+.space-md { margin: var(--spacing-md); }
+.space-lg { margin: var(--spacing-lg); }
+.space-xl { margin: var(--spacing-xl); }
